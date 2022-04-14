@@ -1,0 +1,132 @@
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.home_name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  color: limegreen;
+  z-index: 1;
+}
+
+.menu-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  position: relative;
+}
+
+.menu-nav_item {
+  display: inline;
+  float: right;
+}
+
+a {
+  display: inline-block;
+  padding: 8px;
+}
+
+li a:hover {
+  color: limegreen;
+  float: left;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contactme {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  padding: 50px;
+}
+
+body {
+  background-color: #021118;
+}
+
+.form {
+  margin-top: 10%;
+  padding: 50px;
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  color: limegreen;
+}
+
+body {
+  background: #212144;
+  background-position: center;
+  background-image: url("/images/roman-synkevych-UT8LMo-wlyk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  opacity: 1;
+  color: #fff;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  text-align: center;
+  z-index: 2;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100pc;
+  padding: 1rem;
+}
+
+footer {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0.4rem;
+  right: 1rem;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  z-index: 1;
+}
+/*# sourceMappingURL=main.css.map */
